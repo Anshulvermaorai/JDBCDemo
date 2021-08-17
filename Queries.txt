@@ -1,0 +1,18 @@
+CREATE DATABASE demo;
+use demo;
+CREATE TABLE Movies (
+    MovieId integer,
+    MovieName varchar(255),
+    LeadActor varchar(255),
+    LeadActress varchar(255),
+    Director varchar(255),
+    ReleaseDate datetime
+);
+
+insert into Movies 
+values(1,'A','A','A','A',now());
+insert into Movies 
+values(2,'B','B','B','B',now());
+insert into Movies 
+values(3,'C','C','C','C',now());insert into Movies 
+values(4,'D','D','D','D',now());
